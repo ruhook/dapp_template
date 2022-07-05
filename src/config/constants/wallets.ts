@@ -28,6 +28,7 @@ export interface WalletInfo {
     mobileOnly?: true;
 }
 
+// 支持的钱包
 export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     INJECTED: {
         connector: injected,
